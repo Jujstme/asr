@@ -127,7 +127,7 @@ mod primitives;
 mod runtime;
 
 pub mod emulator;
-#[cfg(any(feature = "mono", feature = "il2cpp"))]
+#[cfg(feature = "dotnet")]
 pub mod dotnet;
 #[macro_use]
 pub mod future;
